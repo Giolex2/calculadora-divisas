@@ -1,0 +1,60 @@
+{
+  "configVersion": 1,
+  "timestamp": 1745703142984,
+  "index": "/calculadora-divisas/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/calculadora-divisas/favicon.ico",
+        "/calculadora-divisas/index.html",
+        "/calculadora-divisas/main-77XRVXKZ.js",
+        "/calculadora-divisas/polyfills-FFHMD2TL.js",
+        "/calculadora-divisas/styles-5INURTSO.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/calculadora-divisas/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/calculadora-divisas/index.html": "c20e138144e55a4f7511f6b1e25bc627e94641e5",
+    "/calculadora-divisas/main-77XRVXKZ.js": "13a45ce5a3413f717c7e1a7d460f59ce40bae516",
+    "/calculadora-divisas/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/calculadora-divisas/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
